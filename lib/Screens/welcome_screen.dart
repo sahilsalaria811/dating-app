@@ -8,15 +8,15 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
+      body: Container(
+
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Image.asset(
-              'assets/images/png/glass.png',
-              width: 240, // Set the width of the image
-              height: 240, // Set the height of the image                     
+          children: [Image.asset(
+              'assets/images/png/ideogram(3).jpeg',
+             // Set the height of the image
             ),
+
 
             SizedBox(height: 20), // Add spacing between icon and message
             Text(
