@@ -9,11 +9,19 @@ class WelcomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        decoration: const BoxDecoration(
+
+          image: DecorationImage(image:AssetImage("assets/images/png/chat.png"),
+          )
+        ),
 
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [Image.asset(
-              'assets/images/png/ideogram(3).jpeg',
+              'assets/images/png/chat.png',
+             height: 250,
+             width: 100,
              // Set the height of the image
             ),
 
