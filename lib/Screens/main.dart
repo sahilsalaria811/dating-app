@@ -18,4 +18,4 @@ class MyApp extends StatelessWidget {
       home: WelcomeScreen(), // Set the welcome screen as the initial screen
     );
   }
-}
+} //Just added a comment to check the git config
