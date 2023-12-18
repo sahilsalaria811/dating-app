@@ -20,7 +20,7 @@ class WelcomeScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [Image.asset(
               'assets/images/png/chat.png',
-             height: 250,
+             height: 251,
              width: 100,
              // Set the height of the image
             ),
